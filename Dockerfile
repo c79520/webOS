@@ -6,4 +6,4 @@ MAINTAINER a79520,MTkej <1179697713@qq.com>
 EXPOSE 8088
 
 #运行脚本
-CMD ["sh restart.sh"]
+CMD ["/bin/sh" "-c" "sh" "restart.sh"]
